@@ -6,7 +6,7 @@ html {
 body {
     font-family: Montserrat, Arial, sans-serif;
     font-weight: 400;
-    background: url('../img/vegas_bg_desktop.jpg') no-repeat;
+    background: url('../img/Vegas_bg_desktop.jpg') no-repeat;
     background-size: cover;
     background-color: #ccc;
     position: relative;
@@ -215,9 +215,6 @@ img {
 }
 
 @media (max-height: 800px) {
-/*    .hero {
-        height: 665px;
-    }*/
     .hero__inner {
         margin-top: 0;
     }
@@ -284,112 +281,6 @@ img {
     }
 
 }
-/*
-@media (max-width : 768px) {
-    html {
-        height: 1024px;
-    }
-    body {
-        height: 1024px;
-        background-image: url('../img/vegas_bg_tablet.jpg');
-    }
-
-    .hero .hero__inner {
-        align-items: center;
-        margin-top: 83px;
-        flex-direction: row;
-        padding: 0 15px;
-    }
-    .hero .left__container {
-        padding: 2%;
-        height: 303px;
-        margin-left: 40px;
-        margin-top: 65px;
-    }
-
-    .hero .logo {
-        top: 54px;
-        left: 60px;
-        width: 120px;
-    }
-    .hero span{
-        margin-top: 148px;
-    }
-
-    .left__container h2{
-        margin-top: -6px;
-        font-size: 15px;
-    }
-
-    .hero h3{
-        font-size: 22px;
-    }
-    
-    a.btn{
-        display: none;
-    }
-
-    a.tablet__btn{
-        display: inline-block;
-        max-width: 272px;
-        width: 100%;
-    }
-
-    .tablet__button {
-        border-radius: 0px;
-        width: 92%;
-        height: 46px;
-        background: #004eff;
-        font-size: 20px;
-        border: 0;
-        font-weight: bold;
-        outline: 0;
-        color: #fff;
-        cursor: pointer;
-        text-transform: uppercase;
-    }
-
-    .tablet__button:focus {
-        outline: 0;
-    }
-
-    .hero .right__container img{
-        width: 123%;
-        margin-left: -35px;
-        margin-top: 60px;
-    }
-    
-    .steps{
-        margin-top: 185px;
-    }
-    
-    .step{
-        height: 44px;
-    }
-
-    .stepIcon{
-        font-size: 40px;
-        margin-right: 15px;
-    }
-
-    .step p{
-        font-size: 12px;
-        margin-right: 0px;
-    }
-
-    .step--1{
-        margin-left: 59px;
-    }
-
-    .step--2{
-        margin-left: 20px;
-        padding-right: 60px;
-    }
-
-    .step--3{
-        margin-left: 2px;
-    }
-}*/
 
 @media (min-width: 560px) and (max-width: 768px) {
     html {
